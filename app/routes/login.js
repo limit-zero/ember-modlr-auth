@@ -1,6 +1,3 @@
-import Ember from 'ember';
-import UnauthenticatedRouteMixin from 'ember-simple-auth/mixins/unauthenticated-route-mixin';
+import application from 'ember-modlr-auth/routes/login';
 
-const { Route } = Ember;
-
-export default Route.extend(UnauthenticatedRouteMixin);
+export default application;
