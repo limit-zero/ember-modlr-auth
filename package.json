@@ -1,24 +1,28 @@
 {
   "name": "ember-modlr-auth",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "A library for implementing authentication/authorization via modlr in Ember.js applications.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "authentication",
+    "authorization",
+    "modlr"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Limit0",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/limit-zero/ember-modlr-auth",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7"
+    "ember-cli-babel": "^5.1.7",
+    "ember-simple-auth": "^1.2.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
