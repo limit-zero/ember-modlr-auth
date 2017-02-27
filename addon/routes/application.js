@@ -7,7 +7,7 @@ export default Route.extend(ApplicationRouteMixin, {
 
   userManager: service(),
 
-  // loading: service(),
+  loading: service(),
 
   session: service('session'),
 
@@ -17,7 +17,10 @@ export default Route.extend(ApplicationRouteMixin, {
 
   sessionAuthenticated: function() {
     this._super(...arguments);
-    this._loadCurrentUser().catch(() => this.get('session').invalidate());
+    this._loadCurrentUser().catch((error) => {
+      console.error(error);
+      this.get('session').invalidate()
+    });
   },
 
   setupController: function(controller, model) {
