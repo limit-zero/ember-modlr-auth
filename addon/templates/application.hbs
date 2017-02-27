@@ -1,0 +1,7 @@
+{{#if session.isAuthenticated}}
+    {{!-- User is logged in: display the application, with wrapping elements --}}
+    {{ outlet }}
+{{else}}
+    {{!-- User is not logged in: show the splash screen, without wrappers --}}
+    {{login-splash}}
+{{/if}}
