@@ -7,7 +7,7 @@ export default Route.extend(ApplicationRouteMixin, {
 
   userManager: service(),
 
-  loading: service(),
+  // loading: service(),
 
   session: service('session'),
 
