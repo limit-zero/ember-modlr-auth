@@ -14,7 +14,7 @@ export default JSONAPIAdapter.extend(DataAdapterMixin, {
 
     coalesceFindRequests: true,
 
-    namespace: 'api/1.0',
+    namespace: 'api/rest',
 
     pathForType: function (type) {
         return Ember.Inflector.inflector.singularize(Ember.String.dasherize(type));
