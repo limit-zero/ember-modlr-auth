@@ -1,2 +1,6 @@
 import Ember from 'ember';
-export default Ember.Component.extend({});
+import layout from '../templates/components/login-splash';
+
+export default Ember.Component.extend({
+  layout
+});
