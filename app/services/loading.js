@@ -1,3 +1,1 @@
-import application from 'ember-modlr-auth/services/loading';
-
-export default application;
+export { default } from 'ember-modlr-auth/services/loading';
