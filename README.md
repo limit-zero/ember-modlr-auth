@@ -1,5 +1,7 @@
 # ember-modlr-auth
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/limit-zero/ember-modlr-auth.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
