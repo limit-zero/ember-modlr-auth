@@ -1,6 +1,6 @@
 {
   "name": "ember-modlr-auth",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "A library for implementing authentication/authorization via modlr in Ember.js applications.",
   "keywords": [
     "ember-addon",
@@ -24,7 +24,8 @@
     "ember-cli-babel": "^5.1.7",
     "ember-simple-auth": "^1.2.0",
     "ember-cli-htmlbars": "^1.0.10",
-    "ember-cli-htmlbars-inline-precompile": "^0.3.3"
+    "ember-cli-htmlbars-inline-precompile": "^0.3.3",
+    "ember-modlr": "^0.1.0"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
